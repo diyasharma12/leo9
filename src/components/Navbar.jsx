@@ -1,7 +1,7 @@
 // src/components/Navbar.jsx
 import { useState } from "react";
 import logo from "../assets/logo-light.svg";
-import ServicePopup from "./servicePopup";
+import ServicePopup from "./ServicesPopup";
 
 const Navbar = () => {
   const [hovered, setHovered] = useState(null);
